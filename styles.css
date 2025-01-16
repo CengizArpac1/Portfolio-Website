@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e272e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header.hero {
+    background: linear-gradient(135deg, #1e90ff, #3742fa);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #f1c40f;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+.navbar {
+    background: #2f3640;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services .service-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.services .service {
+    background: #576574;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f1c40f;
+}
+
+.portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio .portfolio-item {
+    background: #1e272e;
+    padding: 20px;
+    border: 1px solid #576574;
+    border-radius: 8px;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background: #f1c40f;
+    color: #1e272e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e1b12c;
+}
+
+footer {
+    background: #2f3640;
+    padding: 20px;
+    text-align: center;
+    color: #f1c40f;
+}
